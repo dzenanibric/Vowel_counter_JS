@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: darkmagenta;
+    h1{
+        color: white
+    }
+    #text-input-field{
+        width: 300px;
+    }
+    #submit-btn{
+        margin-top: 10px;
+        width: 100px;
+        height: 30px;
+    }
+}
